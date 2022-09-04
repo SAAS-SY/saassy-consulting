@@ -1,0 +1,112 @@
+.form-container {
+    padding: 40px;
+    // font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+
+    .get-in-touch {
+        h1 {
+            font-size: 38px;
+
+            span {
+                font-size: 46px;
+            }
+        }
+
+        text-align: center;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+    }
+
+    .bg-wrap {
+        position: absolute;
+        top: -130px;
+        left: 0;
+        z-index: -1000;
+        /* height: 100px; */
+        height: 478px;
+        width: 100%;
+        min-width: 1850px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+        max-width: 480px;
+        min-width: 360px;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        box-shadow: 0 14px 43px rgb(33 54 61 / 15%);
+        background: #FFFFFF;
+        z-index: 1000;
+
+        .form-input-container {
+            margin: 20px 0 0;
+            width: 280px;
+
+            .label {
+                font-size: 14px;
+                color: #403d3d;
+            }
+
+            input {
+                margin-top: 5px;
+                font-size: 17px;
+                padding: 5px 10px;
+                text-align: left;
+                outline: 0;
+                border: 1px solid #62d6ff;
+                font-size: 16px;
+                line-height: 20px;
+                border: 0;
+                border-bottom: 1px solid #62d6ff;
+                font-family: 'Montserrat', sans-serif;
+
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                height: 150px;
+                margin-top: 10px;
+                outline: none;
+                border: 1px solid #62d6ff;
+                border-radius: 10px;
+                font-family: "Montserrat", sans-serif;
+                padding: 10px;
+            }
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: max-content;
+            padding: 15px 45px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 26px;
+            border-radius: 15px;
+            color: #ffffff;
+            border: none;
+            // background: linear-gradient(to right, #000000 50%, #62d6ff 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.3s ease;
+            margin: auto;
+            margin-bottom: 40px;
+            background-image: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+            margin-top: 30px;
+
+            &:hover {
+                background-position: left bottom;
+            }
+        }
+    }
+}
