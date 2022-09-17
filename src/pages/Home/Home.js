@@ -19,7 +19,7 @@ function Home() {
                 <div className="banner">
                     <img className="banner-bg" src="./images/home-banner-bg.svg" alt="Decentro banner bg" />
                     <div className="text-content">
-                        <h1>SaaS Solutions for<br /><span>Diverse Enterprieses</span></h1>
+                        <h1>SaaS Solutions for<br /><span>Diverse Enterprises</span></h1>
                         <h2>Launch your products 10X faster and think about scale, while we think about the development</h2>
                         <a href='/contact-us'>Explore Now</a>
                     </div>
