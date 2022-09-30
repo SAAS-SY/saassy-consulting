@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="social-links">
                 <div>
                     <a href="https://twitter.com" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-                    <a href="https://www.linkedin.com" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://www.linkedin.com/company/saas-sy-consulting/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a href="https://www.youtube.com" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
                     <a href="https://www.instagram.com" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                 </div>
