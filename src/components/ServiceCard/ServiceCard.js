@@ -35,8 +35,8 @@ const ServiceCard = () => {
                         {/* <a href="/services/crm-integrations"> */}
                         <div className="step-block">
                             <img className='crm-int-icon' src='./images/crm-int-icon.svg' alt="crm-int" />
-                            <h4>CRM<br />Integrations</h4>
-                            <p>CRM is a tool for managing all your company’s relationships with customers, streamline processes & improve profitability.</p>
+                            <h4>CRM<br />HRMS</h4>
+                            <p>An HRMS, is a suite of software applications used to manage hr and related processes throughout the employee lifecycle And understand its workforce while staying compliant with changing tax laws and labor regulations.</p>
                         </div>
                         {/* </a> */}
                     </div>
