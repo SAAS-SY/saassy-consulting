@@ -32,13 +32,13 @@ const ServiceCard = () => {
                             <p>CRM is a technology for managing all your company’s relationships/interactions with customers, streamline processes, and improve profitability.</p>
                         </div>
                         {/* </a> */}
-                        {/* <a href="/services/crm-integrations"> */}
+                        <a href="/services/crm-integrations">
                         <div className="step-block">
                             <img className='crm-int-icon' src='./images/crm-int-icon.svg' alt="crm-int" />
                             <h4> HRMS </h4>
                             <p>An HRMS, is a suite of software applications used to manage hr and related processes throughout the employee lifecycle while staying compliant with changing tax laws and labor regulations.</p>
                         </div>
-                        {/* </a> */}
+                        </a>
                     </div>
                 </div>
             </div>
