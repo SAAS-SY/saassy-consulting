@@ -52,12 +52,6 @@ button {
 }
 
 #root {
-  max-width: 2000px;
-  margin: 0 auto;
-  padding: 40px;
-  overflow: hidden;
-  background: #FFFFFF;
-  z-index: 1000;
   /* background-color: #80c6df3b; */
   /* background-image: linear-gradient(to right, #0250c5 0%, #d43f8d 100%); */
 }
