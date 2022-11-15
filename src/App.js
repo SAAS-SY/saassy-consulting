@@ -28,7 +28,7 @@ const App = () => {
   return (
     <React.Fragment>
       <div className="root-wrapper">
-        {
+        {/* {
           window.location.pathname == "/" ||
             window.location.pathname == "/services" ||
             window.location.pathname == "/services/voip" ||
@@ -37,7 +37,7 @@ const App = () => {
             <img className="banner-bg-piece" src="./images/home-banner-bg.svg" alt="Decentro banner bg" />
             :
             <img className="banner-bg-piece" src="./images/home-banner-bg.svg" alt="Decentro banner bg" style={{ display: 'none' }} />
-        }
+        } */}
         <Router>
           <Header />
           <Routes>

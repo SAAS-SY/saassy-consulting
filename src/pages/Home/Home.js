@@ -9,17 +9,17 @@ import './Home.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock, faCog, faMagic } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../components/Footer/Footer.js';
+import { isMobile } from 'react-device-detect';
 
 
 function Home() {
     return (
         <React.Fragment>
             <div className="homepage">
-                {/* <img className="banner-bg-piece" src="./images/home-banner-bg.svg" alt="Decentro banner bg" /> */}
                 <div className="banner">
-                    <img className="banner-bg" src="./images/home-banner-bg.svg" alt="Decentro banner bg" />
+                    {!isMobile && <img className="banner-bg" src="./images/home-banner-bg.svg" alt="Decentro banner bg" />}
                     <div className="text-content">
-                        <h1>SaaS Solutions for<br /><span>Diverse Enterprises</span></h1>
+                        <h1>SaaS Solutions for <span>Diverse Enterprises</span></h1>
                         <h2>Launch your products 10X faster and think about scale, while we think about the development</h2>
                         <a href='/contact-us'>Explore Now</a>
                     </div>
