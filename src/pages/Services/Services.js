@@ -9,10 +9,9 @@ const Services = () => {
     return (
         <React.Fragment>
             <div className='services'>
-                <h1>Browse through our wide range of <span>Sassy</span>&nbsp;Services</h1>
+                <h1>Browse through our wide range of <span>SaaS-sy</span>&nbsp;Services</h1>
                 <ServiceCard />
             </div>
-            <Footer />
         </React.Fragment>
     )
 }

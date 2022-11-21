@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom';
-
 import './Header.scss';
 import MobileNav from '../MobileNav/MobileNav';
 import { isMobile } from 'react-device-detect';
@@ -37,10 +36,10 @@ function Header(props) {
                     <div className="left">
                         {
                             headerSubHeading === "" ?
-                                <Link to="/"><img src="./images/logo.svg" alt="Decentro Logo" /></Link>
+                                <Link to="/"><img src="../../images/logo.svg" alt="Decentro Logo" /></Link>
                                 :
                                 <div className="header-logo-subheader">
-                                    <Link to="/"><img src="./images/logo.svg" alt="Decentro Logo" /></Link>
+                                    <Link to="/"><img src="../../images/logo.svg" alt="Decentro Logo" /></Link>
                                     <p>{headerSubHeading}</p>
                                 </div>
                         }

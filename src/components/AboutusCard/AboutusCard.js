@@ -25,7 +25,7 @@ const AboutusCard = () => {
                                 <p>Simply create an account using your business email ID with a seamless verification process and select your desired financial modules.</p>
                             </div>
                         </a>
-                        <a href="/services/crm-integrations">
+                        <a href="/services/hrms">
                             <div className="step-block">
                                 <FontAwesomeIcon icon={faCog} />
                                 <h4>CRM<br />Integrations</h4>

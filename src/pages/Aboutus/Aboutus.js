@@ -51,7 +51,6 @@ const Aboutus = (props) => {
                 </div> */}
                 <a className="explore-now signup-btn" href='/contact-us'>Explore Now</a>
             </div>
-            <Footer />
         </React.Fragment>
     )
 }

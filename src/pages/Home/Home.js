@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock, faCog, faMagic } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../components/Footer/Footer.js';
 import { isMobile } from 'react-device-detect';
+import ServicesList from '../Services/ServicesList.js';
 
 
 function Home() {
@@ -27,9 +28,8 @@ function Home() {
                         <img src="./images/banner.svg" alt="Decentro is a full-stack API banking platform for financial integrations." />
                     </div>
                 </div>
+                <ServicesList />
             </div>
-
-            <Footer />
         </React.Fragment>
     )
 }

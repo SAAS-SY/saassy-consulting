@@ -338,3 +338,13 @@
         }
     }
 }
+
+@media (max-width: 820px) {
+    .skip-loop{
+        .skip-loop-contents{
+            .skip-loop-row{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
