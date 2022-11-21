@@ -34,7 +34,7 @@ const InlineImageAndParagraph = (props) => {
         <div className="inline-image-and-paragraph" id={props.id ? props.id : ""}>
             <div className="image">
                 {props.data.imageLink ?
-                    <a href={props.data.imageLink} target="_blank"><img src={props.data.imageSrc} alt={props.data.headingLight ? props.data.headingLight + " " + props.data.headingBold : "logo"} /></a>
+                    <a href={props.data.imageLink} target="_blank" rel="noreferrer"><img src={props.data.imageSrc} alt={props.data.headingLight ? props.data.headingLight + " " + props.data.headingBold : "logo"} /></a>
                     :
                     <img src={props.data.imageSrc} alt={props.data.altText ? props.data.altText : props.data.headingLight ? props.data.headingLight + " " + props.data.headingBold : "logo"} title={props.data.titleText ? props.data.titleText : ""} onClick={props.zoom ? handlePopUpShow : undefined} />
                 }
@@ -93,7 +93,7 @@ const InlineImageAndParagraph = (props) => {
                     props.data.navigationLinkText ?
                         <Link className="inline-image-text-navigation-link" to={props.data.navigationLink}>
                             <span>{props.data.navigationLinkText}</span>
-                            <img src="./images/right.svg" />
+                            <img src="./images/right.svg" alt="right"/>
                         </Link>
                         :
                         null

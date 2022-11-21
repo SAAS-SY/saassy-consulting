@@ -21,7 +21,7 @@
         justify-content: space-between;
         padding-left: 90px;
         padding-right: 90px;
-        margin: 150px 0 100px 0;
+        margin: 150px 0 0 0;
 
         img.banner-bg {
             position: absolute;
@@ -734,6 +734,7 @@
                     top: 60px;
                     width: 320px;
                     left: 20px;
+                    padding-bottom: 85px;
                 }
             }
         }
@@ -763,6 +764,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .homepage{
         .banner{
+            margin: 150px 0 0 0;
             .image-content{
                 img{
                     width: 400px;

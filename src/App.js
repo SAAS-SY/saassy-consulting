@@ -44,12 +44,13 @@ const App = () => {
             <Route exact strict={true} path='/' element={<Home />} />
             <Route exact strict={true} path='/services' element={<Services />} />
             <Route exact strict={true} path='/services/voip' element={<Voip header="VOIP" />} />
-            <Route exact strict={true} path='/crm-integrations' element={<Voip header="CRM Integrations" />} />
+            <Route exact strict={true} path='/services/hrms' element={<Voip header="HRMS" />} />
             <Route exact strict={true} path='/services/crm' element={<Voip header="CRM" />} />
             <Route exact strict={true} path='/about-us' element={<Aboutus header="About Us" />} />
             <Route exact strict={true} path='/contact-us' element={<ContactUs header="Contact Us" />} />
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
+          <Footer/>
         </Router>
       </div>
     </React.Fragment>

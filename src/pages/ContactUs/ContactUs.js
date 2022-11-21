@@ -71,7 +71,6 @@ const ContactUs = () => {
                     </div>
                 </form>
             </div>
-            <Footer />
         </React.Fragment>
     )
 }
