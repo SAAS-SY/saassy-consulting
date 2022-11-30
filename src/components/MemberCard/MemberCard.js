@@ -14,7 +14,7 @@ const MemberCard = () => {
                         <p>Team Members</p>
                     </div>
                     :
-                    <h1>Our Members</h1>
+                    <h1>Our Team</h1>
 
 
             }
