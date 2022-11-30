@@ -11,9 +11,67 @@ import { faLock, faCog, faMagic } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../components/Footer/Footer.js';
 import { isMobile } from 'react-device-detect';
 import ServicesList from '../Services/ServicesList.js';
-
+import Listing from '../../components/Listing/Listing.js';
+import ActivityContent from '../../components/ActivityContent/ActivityContent.js';
 
 function Home() {
+
+    const activityContent = [
+        {
+            'imageSrc': '../../../images/activity/lake.jpg',
+            'altText': "lake",
+        },
+        {
+            'imageSrc': '../../../images/activity/landscape.jpg',
+            'altText': "landscape",
+        },
+        {
+            'imageSrc': '../../../images/activity/sunset.jpg',
+            'altText': "sunset",
+        }
+    ]
+
+    const partnersData = [
+        {
+            'imageSrc': '../../../images/ourpartners/keka.png',
+            'altText': "Keka",
+        },
+        {
+            'imageSrc': '../../../images/ourpartners/callhippo.png',
+            'altText': "CallHippo",
+        },
+    ]
+
+    const partners = [
+        {
+            'imageSrc': '../../../images/ourpartners/keka.svg',
+            'altText': "Keka",
+        },
+        {
+            'imageSrc': '../../../images/ourpartners/callhippo.svg',
+            'altText': "CallHippo",
+        },
+    ]
+
+    const clients = [
+        {
+            'imageSrc': '../../../images/ourclients/amazon_logo.webp',
+            'altText': "Amazon",
+        },
+        {
+            'imageSrc': '../../../images/ourclients/pinterest.svg',
+            'altText': "Pinterest",
+        },
+        {
+            'imageSrc': '../../../images/ourclients/facebook.webp',
+            'altText': "Facebook",
+        },
+        {
+            'imageSrc': '../../../images/ourclients/google.png',
+            'altText': "Google",
+        }
+    ]
+
     return (
         <React.Fragment>
             <div className="homepage">
@@ -28,7 +86,12 @@ function Home() {
                         <img src="./images/banner.svg" alt="Decentro is a full-stack API banking platform for financial integrations." />
                     </div>
                 </div>
+                {/* <ActivityContent activityContent={activityContent} /> */}
                 <ServicesList />
+                <div className="client-partner">
+                    {/* <Listing className="listing-types-padding listing-image" heading="Our Clients" partners={clients} /> */}
+                    <Listing heading="Our Partners" partners={isMobile ? partners : partnersData}/>
+                </div>
             </div>
         </React.Fragment>
     )
