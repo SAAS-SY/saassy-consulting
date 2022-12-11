@@ -78,8 +78,8 @@ function Home() {
                 <div className="banner">
                     {!isMobile && <img className="banner-bg" src="./images/home-banner-bg.svg" alt="Decentro banner bg" />}
                     <div className="text-content">
-                        <h1>SaaS Solutions for <span>Diverse Enterprises</span></h1>
-                        <h2>Launch your products 10X faster and think about scale, while we think about the development</h2>
+                        <h1>SaaS Solutions to<span>prepare your future ready workforce</span></h1>
+                        <h2>Effortlessly upscale your business with SAAS-SY as whatever problems you come across, We have got you covered. </h2>
                         <a href='/contact-us'>Explore Now</a>
                     </div>
                     <div className="image-content">
