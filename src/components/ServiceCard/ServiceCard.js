@@ -25,13 +25,13 @@ const ServiceCard = () => {
                                 <p>Voice over Internet Protocol (VoIP) technology to send and receive phone calls over an IP network.</p>
                             </div>
                         </a>
-                        <a href="/services/crm">
+                        /*<a href="/services/crm">
                         <div className="step-block">
                             <img className='crm-icon' src='./images/crm-icon.svg' alt="crm" />
                             <h4>CRM</h4>
                             <p>CRM is a technology for managing all your company's relationships/interactions with customers, streamline processes, and improve profitability.</p>
                         </div>
-                        </a>
+                        </a>*/
                         <a href="/services/hrms">
                         <div className="step-block">
                             <img className='crm-int-icon' src='./images/crm-int-icon.svg' alt="crm-int" />
