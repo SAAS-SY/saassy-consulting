@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock, faCog, faMagic } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../components/Footer/Footer.js';
 import { isMobile } from 'react-device-detect';
-import ServicesList from '../Services/ServicesList.js';
 import Listing from '../../components/Listing/Listing.js';
 import ActivityContent from '../../components/ActivityContent/ActivityContent.js';
 
@@ -87,7 +86,7 @@ function Home() {
                     </div>
                 </div>
                 {/* <ActivityContent activityContent={activityContent} /> */}
-                <ServicesList />
+                <ServiceCard />
                 <div className="client-partner">
                     {/* <Listing className="listing-types-padding listing-image" heading="Our Clients" partners={clients} /> */}
                     <Listing heading="Our Partners" partners={isMobile ? partners : partnersData}/>

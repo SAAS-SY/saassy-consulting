@@ -105,6 +105,7 @@
         flex-flow: column;
         align-items: center;
         padding: 80px 100px;
+        padding-top: 20px;
         border-radius: 0px 133px 0px 0px;
 
         h2 {
@@ -551,6 +552,7 @@
 
         .skip-loop {
             padding: 50px;
+            padding-top: 20px;
 
             .skip-loop-contents {
                 .skip-loop-row {
@@ -724,6 +726,9 @@
 
 @media (max-width: 767px) {
     .homepage {
+        .skip-loop{
+            padding-top: 0px;
+        }
         .banner {
             flex-direction: column;
             padding-left: 60px;
@@ -753,7 +758,7 @@
     }
     
     .footer-new {
-        padding: 50px 60px;
+        padding: 50px 30px;
 
         .contact-methods {
             flex-direction: column;
@@ -776,6 +781,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .homepage {
+        .skip-loop{
+            padding-top: 0px;
+            .skip-loop-contents{
+                .skip-loop-row{
+                    display: flex;
+                }
+            }
+        }
         .banner {
             margin: 150px 0 0 0;
 
