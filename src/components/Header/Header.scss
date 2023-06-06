@@ -5,6 +5,9 @@ header {
     padding: 40px 90px;
     background: transparent;
     background: #FFFFFF;
+    // position: sticky;
+    // top: 0;
+    // z-index: 100;
 
     // padding-top: 100px;
     &.with-banner {
@@ -210,13 +213,15 @@ header {
 }
 
 @media (max-width: 767px) {
-    .responsive-nav{
+    .responsive-nav {
         display: flex;
         flex-direction: column;
     }
+
     header {
         border-bottom: blueviolet 2px solid;
         padding: 20px 10px;
+
         .menu-full {
             .left {
                 img {
@@ -224,6 +229,7 @@ header {
                     padding-left: 20px;
                 }
             }
+
             .right {
                 ul {
                     display: flex;

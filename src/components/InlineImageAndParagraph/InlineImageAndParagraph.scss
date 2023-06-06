@@ -3,6 +3,7 @@
     flex-flow: row;
     justify-content: space-between;
     padding: 80px 100px;
+    padding-bottom: 0px;
 
     &:nth-child(2n) {
         flex-flow: row-reverse;
@@ -10,6 +11,7 @@
 
     .image {
         width: 40%;
+        height: 40%;
         display: flex;
         // align-items: flex-end;
 
@@ -53,9 +55,22 @@
             }
         }
 
+        h3 {
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #62d6ff;
+            width: 100%;
+
+            span {
+                font-weight: 600;
+                color: #000000;
+            }
+        }
+
         p,
         a {
-            margin-top: 40px;
+            margin-top: 15px;
             font-size: 20px;
             line-height: 30px;
             color: #3C3C3C;
@@ -85,6 +100,7 @@
 @media screen and (max-width: 1280px) and (min-width: 1024px) {
     .inline-image-and-paragraph {
         padding: 50px;
+        padding-bottom: 0px;
 
         .image {
             width: 30%;
@@ -112,6 +128,7 @@
     .inline-image-and-paragraph {
         padding: 30px;
         flex-flow: column;
+        padding-bottom: 0px;
 
         .image {
             display: none;
@@ -125,6 +142,11 @@
             h2 {
                 font-size: 30px;
                 line-height: 40px;
+                text-align: left;
+            }
+
+            h3 {
+                font-size: 20px;
                 text-align: left;
             }
 
@@ -147,7 +169,7 @@
     .inline-image-and-paragraph {
         .paragraph {
 
-            h2,
+            h2,h3,
             p,
             a {
                 align-self: flex-start;

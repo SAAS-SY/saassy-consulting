@@ -4,10 +4,11 @@ import Header from './components/Header/Header.js';
 import Home from './pages/Home/Home.js';
 import Services from './pages/Services/Services.js';
 import Aboutus from './pages/Aboutus/Aboutus.js';
-import Voip from './pages/Voip/Voip.js';
+import ContentDisplay from './pages/Voip/Voip.js';
 import './App.css';
 import ContactUs from './pages/ContactUs/ContactUs.js';
 import Footer from './components/Footer/Footer.js';
+import { voip, hrms, crm } from './components/ServiceCard/ServicesContent';
 
 const App = () => {
   const [viewType, setViewType] = useState("")
@@ -43,9 +44,9 @@ const App = () => {
           <Routes>
             <Route exact strict={true} path='/' element={<Home />} />
             <Route exact strict={true} path='/services' element={<Services />} />
-            <Route exact strict={true} path='/services/voip' element={<Voip header="VOIP" />} />
-            <Route exact strict={true} path='/services/hrms' element={<Voip header="HRMS" />} />
-            <Route exact strict={true} path='/services/crm' element={<Voip header="CRM" />} />
+            <Route exact strict={true} path='/services/voip' element={<ContentDisplay header="VOIP" bodyContent={voip}/>} />
+            <Route exact strict={true} path='/services/hrms' element={<ContentDisplay header="HRMS" bodyContent={hrms}/>} />
+            <Route exact strict={true} path='/services/crm' element={<ContentDisplay header="CRM" bodyContent={crm}/>} />
             <Route exact strict={true} path='/about-us' element={<Aboutus header="About Us" />} />
             <Route exact strict={true} path='/contact-us' element={<ContactUs header="Contact Us" />} />
             <Route path="*" element={<Navigate replace to="/" />} />
