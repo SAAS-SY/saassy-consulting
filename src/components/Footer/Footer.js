@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='contact-methods'>
                 <div>
                     <span className='centered'><img src="../../images/contactus/phone.svg" alt="Phone Call" /></span><br />
-                    <span>+91-7972072763</span>
+                    <span>+91-7776091114</span>
                 </div>
                 <div>
                     <span className='centered'><img src="../../images/contactus/location.svg" alt="Location" /></span><br />

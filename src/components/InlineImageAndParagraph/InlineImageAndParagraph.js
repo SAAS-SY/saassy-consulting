@@ -67,6 +67,7 @@ const InlineImageAndParagraph = (props) => {
 
             <div className="paragraph">
                 <h2>{props.data.headingLight} <span dangerouslySetInnerHTML={{ __html: props.data.headingBold }}></span></h2>
+                <h3>{props.data.subHeading} <span dangerouslySetInnerHTML={{ __html: props.data.subHeadingBold }}></span></h3>
                 {
                     props.data.extraHeadingText ?
                         <h2 dangerouslySetInnerHTML={{ __html: props.data.extraHeadingText }}></h2>
