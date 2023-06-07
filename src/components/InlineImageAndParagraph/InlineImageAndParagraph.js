@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faArrowLeft, faArrowRight, faExpand } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faExpand } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import './InlineImageAndParagraph.scss';
 
